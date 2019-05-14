@@ -27,7 +27,7 @@ fs.readdir('./Events/', (error, f) => {
         });
 });
 
-client.login('NTc2NDM5NzYwMjY5MDgyNjc0.XNWjiA.I5ys0ind50eTC6urWo0znDQrySw');
+client.login(process.env.TOKEN);
 
 
 client.on('guildMemberAdd', function (member) {
